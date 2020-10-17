@@ -8,11 +8,8 @@ prompt.get(
          var n= result.n
          var m= result.m
          var s= result.s 
-         var q= Math.floor(m/n) 
-         var z= n*q
-         var diff= m-z
-         var dev= parseInt(diff) + parseInt(s)
-         var developer= dev
+         var mod= parseInt(m)%parseInt(n)
+         var developer= parseInt(mod)+parseInt(s)
 
          var add= ()=>{
 
@@ -25,7 +22,4 @@ prompt.get(
           add()
      }
 )
-
-
-
 
