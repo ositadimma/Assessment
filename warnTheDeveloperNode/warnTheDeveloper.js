@@ -11,7 +11,7 @@ prompt.get(
          var mod= parseInt(m)%parseInt(n)
          var developer= parseInt(mod)+parseInt(s)
 
-         var add= ()=>{
+         var display= ()=>{
 
             var warnTheDeveloper=()=>{
               console.log('you are in big trouble developer in chair number '+developer)  
@@ -19,7 +19,7 @@ prompt.get(
 
              warnTheDeveloper()
           }
-          add()
+          display()
      }
 )
 
