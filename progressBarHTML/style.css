@@ -1,0 +1,15 @@
+:root{
+    --level: 33%;
+}
+span{
+    background-color: chocolate;
+
+}
+.container{
+    border-radius: 10px;
+}
+.progress{
+    height: 20px;
+    border-radius: 10px;
+    width: var(--level);
+}
