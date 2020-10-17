@@ -1,0 +1,11 @@
+{
+  "name": "parkw",
+  "version": "1.0.0",
+  "description": "assessment",
+  "main": "warnTheDeveloper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ositadimma okolie",
+  "license": "ISC"
+}
