@@ -5,11 +5,14 @@ const prompt = require('prompt')
 prompt.start()
 prompt.get(
      ['n','m','s'],(err, result)=>{
-         const n= result.n
-         const m= result.m
-         const s= result.s 
-         const q= Math.floor(m/n) 
-         const developer= q+s-1
+         var n= result.n
+         var m= result.m
+         var s= result.s 
+         var q= Math.floor(m/n) 
+         var z= n*q
+         var diff= m-z
+         var dev= parseInt(diff) + parseInt(s)
+         var developer= dev
 
          var add= ()=>{
 
@@ -17,7 +20,7 @@ prompt.get(
               console.log('you are in big trouble developer in chair number '+developer)  
              }
 
-          warnTheDeveloper()
+             warnTheDeveloper()
           }
           add()
      }
