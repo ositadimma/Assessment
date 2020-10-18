@@ -9,7 +9,8 @@ prompt.get(
          var m= result.m
          var s= result.s 
          var mod= parseInt(m)%parseInt(n)
-         var developer= parseInt(mod)+parseInt(s)
+         var i= parseInt(s)-1
+         var developer= parseInt(mod)+parseInt(i)
 
          var display= ()=>{
 
