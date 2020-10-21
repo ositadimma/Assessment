@@ -9,18 +9,21 @@ prompt.get(
          var m= result.m
          var s= result.s 
          var mod= parseInt(m)%parseInt(n)
-         var i= parseInt(s)-1
+         var i= parseInt(s)-parseInt(1)
          var developer= parseInt(mod)+parseInt(i)
 
          var display= ()=>{
 
             var warnTheDeveloper=()=>{
-              console.log('you are in big trouble developer in chair number '+developer)  
-             }
-
-             warnTheDeveloper()
-          }
-          display()
+                if(mod!=0){
+                    console.log('you are in big trouble developer in chair number '+developer) 
+                 }else{
+                 console.log('you are in big trouble developer in chair number '+n)   
+                 }          
+          }       
+          warnTheDeveloper()  
      }
+     display()
+    }   
+      
 )
-
